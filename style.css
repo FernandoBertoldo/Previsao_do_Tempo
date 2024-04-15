@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, tahoma, sans-serif;
+    text-decoration: none;
+
+    list-style: none;
+
+}
+
+.card{
+position: relative;
+margin: 50px auto;
+background-color: rgb(57, 146, 219);
+border-radius: 12px;
+width: 500px;
+text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+
+}
+
+.dia{
+    background-color: rgb(57, 146, 219);
+    justify-content: space-between; 
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    
+}
+
+.nome_cidade{
+    background-color: rgb(57, 146, 219);
+    position: absolute;
+    color: white;
+    left: 15px;
+    top: 15px;
+}
+
+.superior{
+display: flex;
+border-radius: 10px;
+width: 500px;
+height: 60px;
+background-color: rgb(57, 146, 219);
+}
+
+.nome_cidade_sup{
+   display: flex;
+   
+}
+.dia_semana{
+color: white;
+display: flex;
+font-size: 20px;
+background-color: rgb(40, 80, 112);
+height: 40px;
+}
+
+.principal{
+
+    display: flex;
+    justify-content: space-between   
+}
+
+.inferior_principal{
+    height: 80px;
+    display: flex;
+    color: white;
+    justify-content: space-between   
+}
+
+.search{
+    display: flex;
+    background-color: rgb(57, 146, 219);
+    border-radius: 10px;
+}
+
+.temperatura{
+    font-size: 80px;
+}
+
+.inferior_principal{
+
+    background-color: rgb(57, 146, 219);
+}
+.imagem_previsao img {
+    width: 170px; /* Defina a largura desejada da imagem */
+    height: auto; /* Mantenha a altura automática para manter a proporção original */
+}
+
+.max_e_min {
+    font-size: 20px; /* Defina o tamanho da fonte para os ícones */
+    color: white;
+}
+
+.max_e_min i {
+    margin: 0 5px; /* Adicione algum espaço entre os ícones e os números */
+}
+.icon_top{
+background-color: black;
+padding: 8px;
+
+}
+
+.dia_mes{
+
+color: white;
+
+}
+
+.search-button::placeholder{
+    color: white;
+}
